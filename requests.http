@@ -1,0 +1,19 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=WebStorm
+
+### List all messages
+GET http://localhost:3000/messages
+
+
+### Create a new message
+POST localhost:3000/messages
+content-type: application/json
+
+{
+  "content": "hi there"
+}
+
+
+### Get a particular message
+GET http://localhost:3000/messages/1
