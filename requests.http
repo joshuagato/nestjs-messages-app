@@ -11,7 +11,8 @@ POST localhost:3000/messages
 content-type: application/json
 
 {
-  "content": "hi there"
+  "content": 123,
+  "amount": "Hi there"
 }
 
 
